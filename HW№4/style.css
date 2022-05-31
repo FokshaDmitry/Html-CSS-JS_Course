@@ -1,0 +1,79 @@
+body
+{
+    display: flex;
+    justify-content: center;
+}
+.Player
+{
+    width: 400px;
+    height: 500px;
+    background: rgb(77, 130, 71);
+    margin-top: 10%;
+    border: 2px double black;
+    text-align: center;
+}
+.Cover
+{
+    background: white;
+    border: 2px double black;
+    width: 350px;
+    height: 250px;
+    margin-top: 10px;
+}
+.Player .Control
+{
+    border: 2px double black;
+    width: 350px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 20px;
+    text-align: left;
+}
+.playText
+{
+    font-size: 100px;
+    margin-top: 0;
+}
+#replay
+{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    margin-top: 70px;
+}
+#play
+{
+    width: 100px;
+    height: 60px;
+}
+#forward
+{
+    margin-left: 50px;
+    margin-top: 70px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+#valume_up
+{
+    margin-top: 35%;
+    margin-left: 55%;
+}
+.valume_range
+{
+    width: 100px;
+    position: absolute;
+    transform: rotate(270deg);
+    margin-left: 10%;
+    margin-top: 4%;
+}
+.range
+{
+    width: 350px;
+}
+#File
+{
+    margin-left: 40px;
+}
