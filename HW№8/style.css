@@ -1,0 +1,27 @@
+body
+{
+    justify-content: center;
+    display: flex;
+}
+.Form
+{
+    width: 500px;
+    height: 600px;
+    border: 2px double black;
+    justify-content: center;
+    text-align: center;
+}
+#Photo
+{
+    margin-top: 2%;
+    border: 2px double black;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+.Form input
+{
+    margin-top: 5%;
+    display: block;
+    margin-left: 32%;
+}
