@@ -1,0 +1,20 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "weekend?": "node ./index.js",
+    "verse": "node ./verse.js",
+    "delete": "node ./delete.js",
+    "append": "node ./append.js",
+    "directory": "node ./diryctory.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "is-weekend": "^1.0.0"
+  }
+}
