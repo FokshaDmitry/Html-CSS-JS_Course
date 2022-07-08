@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XO</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script defer src="1.js"></script>
+</head>
+  <body>
+    <!-- стиль оформления игрового поля--->
+    <style>
+      td {
+        border-style: solid;
+        border-width: 2px;
+        padding: 2px;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+      }
+      table {
+        border-color: Blue;
+        color: Green;
+        cursor: pointer;
+        border-style: solid;
+        border-width: 5px;
+        padding: 2px;
+      }
+    </style>
+    <!-- для каждоя ячейки прописываем
+обработчик события клика мыши-->
+    <table> 
+      <tr>
+        <td id="td0"></td>
+        <td id="td1"></td>
+        <td id="td2"></td>
+      </tr>
+      <tr>
+        <td id="td3"></td>
+        <td id="td4"></td>
+        <td id="td5"></td>
+      </tr>
+      <tr>
+        <td id="td6"></td>
+        <td id="td7"></td>
+        <td id="td8"></td>
+      </tr>
+    </table>
+  </body>
+</html>
